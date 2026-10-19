@@ -12,8 +12,17 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout catalog repository
+        uses: actions/checkout@v4
         with:
+          persist-credentials: false
+
+      - name: Checkout pinned LearnPip contract
+        uses: actions/checkout@v4
+        with:
+          repository: kennfarbe/LearnPip
+          ref: 13270a7cae206980560040770cacd62e0252129e
+          path: .contract/learnpip
           persist-credentials: false
 
       - name: Select release package
@@ -30,13 +39,15 @@ jobs:
           echo "path=${package}" >> "$GITHUB_OUTPUT"
           echo "name=$(basename "${package}")" >> "$GITHUB_OUTPUT"
 
-      - name: Validate LearnPip package contract
+      - name: Validate release package
         shell: bash
         env:
           PACKAGE: ${{ steps.package.outputs.path }}
         run: |
           set -euo pipefail
           python3 scripts/validate-release.py "$PACKAGE" > validation-report.txt
+          python3 scripts/validate-wikipedia-content.py "$PACKAGE" >> validation-report.txt
+          python3 .contract/learnpip/scripts/validate-catalog.py "$PACKAGE" >> validation-report.txt
 
       - name: Create SHA-256 file
         shell: bash
