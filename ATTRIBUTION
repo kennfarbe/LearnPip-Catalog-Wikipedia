@@ -1,3 +1,23 @@
 Noch kein Inhaltsrelease.
 
-Für jedes veröffentlichte Themenpaket werden hier die verwendeten Wikipedia-Artikel mit konkreter Revision sowie die erforderlichen Autoren-/Attributionshinweise und Änderungen dokumentiert. Medien erhalten separate Einzelnachweise.
+Für ein veröffentlichtes Themenpaket wird dieser Nachweis vor dem Release durch konkrete Angaben ersetzt.
+
+Pro verwendeter Wikipedia-Quelle werden mindestens dokumentiert:
+
+- Artikeltitel
+- permanenter Link auf die verwendete Revision
+- Revisions-ID
+- CC BY-SA 4.0
+- Änderungsvermerk für die abgeleiteten Lerninhalte
+
+Pro übernommenem Medium werden mindestens dokumentiert:
+
+- Dateiname beziehungsweise Werkbezeichnung
+- gepinnte Quell- oder Dateibeschreibungsseite
+- Quellenrevision
+- Urheber oder Rechteinhaber
+- verlangte Attribution
+- konkrete Medienlizenz und Lizenzlink
+- Änderungsvermerk, falls bearbeitet
+
+Die Releaseprüfung verlangt, dass die in den Fragen und Medien hinterlegten Quellenlinks in diesem Nachweis enthalten sind.
