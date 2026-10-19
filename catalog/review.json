@@ -1,0 +1,150 @@
+{
+  "schema_version": "1",
+  "package_id": "org.learnpip.wikipedia.aha",
+  "questions": [
+    {
+      "id": "wikipedia:aha:schall-01",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:schall-02",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:schall-03",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:schall-04",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:regenbogen-01",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:regenbogen-02",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:regenbogen-03",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:regenbogen-04",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:wasser-01",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:wasser-02",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:wasser-03",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:wasser-04",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:gewitter-01",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:gewitter-02",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:gewitter-03",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:gewitter-04",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:led-01",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:led-02",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:led-03",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:led-04",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:hebel-01",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:hebel-02",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:hebel-03",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    },
+    {
+      "id": "wikipedia:aha:hebel-04",
+      "status": "draft",
+      "reviewers": [],
+      "note": "Vier-Augen-Freigabe vor Release erforderlich."
+    }
+  ]
+}

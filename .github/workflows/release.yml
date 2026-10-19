@@ -12,31 +12,40 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout catalog repository
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
 
-      - name: Select release package
+      - name: Checkout pinned LearnPip contract
+        uses: actions/checkout@v4
+        with:
+          repository: kennfarbe/LearnPip
+          ref: 13270a7cae206980560040770cacd62e0252129e
+          path: .contract/learnpip
+          persist-credentials: false
+
+      - name: Build approved release package
         id: package
         shell: bash
         run: |
           set -euo pipefail
-          mapfile -t packages < <(find catalog -maxdepth 1 -type f -name '*.zip' -print | sort)
-          if (( ${#packages[@]} != 1 )); then
-            echo "Ein Release benötigt genau ein geprüftes ZIP unter catalog/." >&2
-            exit 1
-          fi
-          package="${packages[0]}"
-          echo "path=${package}" >> "$GITHUB_OUTPUT"
-          echo "name=$(basename "${package}")" >> "$GITHUB_OUTPUT"
+          version="${GITHUB_REF_NAME#v}"
+          python3 scripts/build-catalog.py build --catalog-version "$version"
+          package="build/org.learnpip.wikipedia.aha-${version}.zip"
+          test -f "$package"
+          echo "path=$package" >> "$GITHUB_OUTPUT"
 
-      - name: Validate LearnPip package contract
+      - name: Validate release package
         shell: bash
         env:
           PACKAGE: ${{ steps.package.outputs.path }}
         run: |
           set -euo pipefail
           python3 scripts/validate-release.py "$PACKAGE" > validation-report.txt
+          python3 scripts/validate-wikipedia-content.py "$PACKAGE" >> validation-report.txt
+          python3 scripts/validate-learning-design.py "$PACKAGE" >> validation-report.txt
+          python3 .contract/learnpip/scripts/validate-catalog.py "$PACKAGE" >> validation-report.txt
 
       - name: Create SHA-256 file
         shell: bash
