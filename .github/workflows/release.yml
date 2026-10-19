@@ -25,19 +25,16 @@ jobs:
           path: .contract/learnpip
           persist-credentials: false
 
-      - name: Select release package
+      - name: Build approved release package
         id: package
         shell: bash
         run: |
           set -euo pipefail
-          mapfile -t packages < <(find catalog -maxdepth 1 -type f -name '*.zip' -print | sort)
-          if (( ${#packages[@]} != 1 )); then
-            echo "Ein Release benötigt genau ein geprüftes ZIP unter catalog/." >&2
-            exit 1
-          fi
-          package="${packages[0]}"
-          echo "path=${package}" >> "$GITHUB_OUTPUT"
-          echo "name=$(basename "${package}")" >> "$GITHUB_OUTPUT"
+          version="${GITHUB_REF_NAME#v}"
+          python3 scripts/build-catalog.py build --catalog-version "$version"
+          package="build/org.learnpip.wikipedia.aha-${version}.zip"
+          test -f "$package"
+          echo "path=$package" >> "$GITHUB_OUTPUT"
 
       - name: Validate release package
         shell: bash
