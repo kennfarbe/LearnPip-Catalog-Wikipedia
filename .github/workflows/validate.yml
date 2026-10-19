@@ -35,6 +35,7 @@ jobs:
           python3 -m py_compile \
             scripts/validate-release.py \
             scripts/validate-wikipedia-content.py \
+            scripts/validate-learning-design.py \
             tests/test-wikipedia-license-gate.py
           python3 tests/test-wikipedia-license-gate.py
 
@@ -62,4 +63,5 @@ jobs:
           package="${packages[0]}"
           python3 scripts/validate-release.py "$package"
           python3 scripts/validate-wikipedia-content.py "$package"
+          python3 scripts/validate-learning-design.py "$package"
           python3 .contract/learnpip/scripts/validate-catalog.py "$package"
