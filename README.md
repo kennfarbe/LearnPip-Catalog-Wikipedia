@@ -4,9 +4,9 @@ Dieses Repository pflegt kuratierte, Wikipedia-basierte Lernfragen als eigenstä
 
 ## Status
 
-Die Repository- und Release-Infrastruktur einschließlich einer fail-closed Lizenzprüfung ist vorbereitet. Reale Wikipedia-Inhalte werden erst veröffentlicht, wenn Artikelrevisionen, Attribution, Bearbeitungen, redaktionelle Freigaben und gegebenenfalls Medienlizenzen vollständig und reproduzierbar nachgewiesen sind.
+Das erste Beispielpaket **„Alltagswissen mit Aha-Effekt“** enthält 24 kuratierte Fragen aus sechs Themenquellen, je 12 für die Zielstufen 10–12 und 13–15. Jede Frage verweist auf eine konkrete permanente Wikipedia-Revision und enthält eine kurze Aha-Erklärung.
 
-Bis zu einem redaktionell geprüften Beispielpaket gibt es bewusst kein Inhaltsrelease.
+Alle Fragen stehen zunächst im Review-Status `draft`. Ein Inhaltsrelease bleibt technisch gesperrt, bis jede Frage im Vier-Augen-Verfahren freigegeben wurde.
 
 ## Schnittstelle zu LearnPip
 
