@@ -1,0 +1,1852 @@
+{
+  "questions": [
+    {
+      "id": "wikipedia:aha:schall-01",
+      "language": "de",
+      "prompt": "Auf dem Mond schreit jemand ohne Funkgerät. Könntest du den Schrei durch den leeren Raum hören?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Nein, denn Schall braucht ein Medium.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nein, denn Schall braucht ein Medium."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Ja, dort ist Schall sogar schneller.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ja, dort ist Schall sogar schneller."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Nur wenn die Person sehr laut schreit.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nur wenn die Person sehr laut schreit."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Schall ist eine mechanische Welle und braucht ein Medium wie Luft, Wasser oder einen Festkörper. In einem idealen Vakuum fehlt dieses Trägermedium – deshalb kann sich dort kein Schall ausbreiten.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Schall"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Schall“, Revision 269731907; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Schall&oldid=269731907",
+        "source_revision": "269731907",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Schall",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Auf dem Mond schreit jemand ohne Funkgerät. Könntest du den Schrei durch den leeren Raum hören?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Schall ist eine mechanische Welle und braucht ein Medium wie Luft, Wasser oder einen Festkörper. In einem idealen Vakuum fehlt dieses Trägermedium – deshalb kann sich dort kein Schall ausbreiten."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Schall“, Revision 269731907. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:schall-02",
+      "language": "de",
+      "prompt": "Wo breitet sich Schall bei ungefähr 20 °C schneller aus?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "In Wasser",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "In Wasser"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "In Luft",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "In Luft"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "In beiden gleich schnell",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "In beiden gleich schnell"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "In Wasser ist Schall bei etwa 20 °C mit rund 1484 m/s deutlich schneller als in Luft mit etwa 343 m/s. Das überrascht, weil wir beim Hören meistens zuerst an Luft denken.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Schall"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Schall“, Revision 269731907; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Schall&oldid=269731907",
+        "source_revision": "269731907",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Schall",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Wo breitet sich Schall bei ungefähr 20 °C schneller aus?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "In Wasser ist Schall bei etwa 20 °C mit rund 1484 m/s deutlich schneller als in Luft mit etwa 343 m/s. Das überrascht, weil wir beim Hören meistens zuerst an Luft denken."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Schall“, Revision 269731907. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:schall-03",
+      "language": "de",
+      "prompt": "Warum kann sich Schall nicht durch ein ideales Vakuum ausbreiten?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Weil dort kein Medium die mechanische Schwingung weitergeben kann.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil dort kein Medium die mechanische Schwingung weitergeben kann."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Weil Schall nur bei Tageslicht funktioniert.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil Schall nur bei Tageslicht funktioniert."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Weil im Vakuum jede Schallwelle zu Licht wird.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil im Vakuum jede Schallwelle zu Licht wird."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Schall besteht aus mechanischen Schwingungen, die sich in einem Medium fortpflanzen. Fehlt Materie als Träger, gibt es keine Teilchen, die diese Schwingung weiterreichen können.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Schall"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Schall“, Revision 269731907; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Schall&oldid=269731907",
+        "source_revision": "269731907",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Schall",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Warum kann sich Schall nicht durch ein ideales Vakuum ausbreiten?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Schall besteht aus mechanischen Schwingungen, die sich in einem Medium fortpflanzen. Fehlt Materie als Träger, gibt es keine Teilchen, die diese Schwingung weiterreichen können."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Schall“, Revision 269731907. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:schall-04",
+      "language": "de",
+      "prompt": "Die Schallgeschwindigkeit bleibt gleich, aber die Frequenz wird größer. Was passiert mit der Wellenlänge?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Sie wird kürzer.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Sie wird kürzer."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Sie wird länger.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Sie wird länger."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Sie bleibt immer gleich.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Sie bleibt immer gleich."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Für Schall gilt Wellenlänge = Schallgeschwindigkeit geteilt durch Frequenz. Bleibt die Geschwindigkeit gleich und steigt die Frequenz, muss die Wellenlänge kleiner werden.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Schall"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Schall“, Revision 269731907; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Schall&oldid=269731907",
+        "source_revision": "269731907",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Schall",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Die Schallgeschwindigkeit bleibt gleich, aber die Frequenz wird größer. Was passiert mit der Wellenlänge?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Für Schall gilt Wellenlänge = Schallgeschwindigkeit geteilt durch Frequenz. Bleibt die Geschwindigkeit gleich und steigt die Frequenz, muss die Wellenlänge kleiner werden."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Schall“, Revision 269731907. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:regenbogen-01",
+      "language": "de",
+      "prompt": "Was braucht man für einen typischen Regenbogen am Himmel?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Sonnenlicht und Regentropfen",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Sonnenlicht und Regentropfen"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Nur eine dunkle Wolke",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nur eine dunkle Wolke"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Mondlicht und Schnee",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Mondlicht und Schnee"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Ein Regenbogen entsteht, wenn Sonnenlicht in Regentropfen gebrochen, teilweise im Tropfen zurückgeworfen und beim Austritt erneut gebrochen wird. Dabei werden die Farben unterschiedlich stark abgelenkt.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Licht und Sehen"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Regenbogen“, Revision 270609407; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Regenbogen&oldid=270609407",
+        "source_revision": "270609407",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Licht und Sehen",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Was braucht man für einen typischen Regenbogen am Himmel?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Ein Regenbogen entsteht, wenn Sonnenlicht in Regentropfen gebrochen, teilweise im Tropfen zurückgeworfen und beim Austritt erneut gebrochen wird. Dabei werden die Farben unterschiedlich stark abgelenkt."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Regenbogen“, Revision 270609407. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:regenbogen-02",
+      "language": "de",
+      "prompt": "Verlässt einen einzelnen Regentropfen nur eine einzige Regenbogenfarbe?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Nein, aus einem Tropfen tritt Licht verschiedener Regenbogenfarben aus.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nein, aus einem Tropfen tritt Licht verschiedener Regenbogenfarben aus."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Ja, jeder Tropfen ist immer nur für eine Farbe zuständig.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ja, jeder Tropfen ist immer nur für eine Farbe zuständig."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Nur rote und blaue Farben verlassen denselben Tropfen.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nur rote und blaue Farben verlassen denselben Tropfen."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Ein einzelner Regentropfen sendet Licht verschiedener Regenbogenfarben in unterschiedliche Richtungen aus. Für dein Auge kommen die sichtbaren Farben des Bogens aber aus jeweils passend liegenden Tropfen.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Licht und Sehen"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Regenbogen“, Revision 270609407; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Regenbogen&oldid=270609407",
+        "source_revision": "270609407",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Licht und Sehen",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Verlässt einen einzelnen Regentropfen nur eine einzige Regenbogenfarbe?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Ein einzelner Regentropfen sendet Licht verschiedener Regenbogenfarben in unterschiedliche Richtungen aus. Für dein Auge kommen die sichtbaren Farben des Bogens aber aus jeweils passend liegenden Tropfen."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Regenbogen“, Revision 270609407. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:regenbogen-03",
+      "language": "de",
+      "prompt": "Welche Farbe des Sonnenlichts wird im Regentropfen stärker gebrochen?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Blau",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Blau"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Rot",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Rot"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Beide genau gleich",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Beide genau gleich"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Kurzwelliges blaues Licht wird stärker gebrochen als langwelliges rotes Licht. Dadurch werden die Farbanteile verschieden stark abgelenkt und räumlich getrennt sichtbar.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Licht und Sehen"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Regenbogen“, Revision 270609407; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Regenbogen&oldid=270609407",
+        "source_revision": "270609407",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Licht und Sehen",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Welche Farbe des Sonnenlichts wird im Regentropfen stärker gebrochen?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Kurzwelliges blaues Licht wird stärker gebrochen als langwelliges rotes Licht. Dadurch werden die Farbanteile verschieden stark abgelenkt und räumlich getrennt sichtbar."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Regenbogen“, Revision 270609407. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:regenbogen-04",
+      "language": "de",
+      "prompt": "Warum ist die Farbreihenfolge beim Nebenregenbogen gegenüber dem Hauptregenbogen umgekehrt?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Weil das Licht im Tropfen zweimal reflektiert wird.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil das Licht im Tropfen zweimal reflektiert wird."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Weil der Nebenregenbogen nur nachts entsteht.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil der Nebenregenbogen nur nachts entsteht."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Weil Regentropfen im Nebenregenbogen größer sein müssen.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil Regentropfen im Nebenregenbogen größer sein müssen."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Beim Nebenregenbogen wird das Sonnenlicht im Regentropfen zweimal an der Innenwand reflektiert. Diese zusätzliche Reflexion führt dazu, dass die Farbreihenfolge gegenüber dem Hauptregenbogen umgekehrt erscheint.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Licht und Sehen"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Regenbogen“, Revision 270609407; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Regenbogen&oldid=270609407",
+        "source_revision": "270609407",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Licht und Sehen",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Warum ist die Farbreihenfolge beim Nebenregenbogen gegenüber dem Hauptregenbogen umgekehrt?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Beim Nebenregenbogen wird das Sonnenlicht im Regentropfen zweimal an der Innenwand reflektiert. Diese zusätzliche Reflexion führt dazu, dass die Farbreihenfolge gegenüber dem Hauptregenbogen umgekehrt erscheint."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Regenbogen“, Revision 270609407. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:wasser-01",
+      "language": "de",
+      "prompt": "Warum schwimmt ein Eiswürfel auf flüssigem Wasser?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Eis hat eine geringere Dichte als flüssiges Wasser.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Eis hat eine geringere Dichte als flüssiges Wasser."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Eis ist immer wärmer als Wasser.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Eis ist immer wärmer als Wasser."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Im Eis steckt Luft, die es grundsätzlich schweben lässt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Im Eis steckt Luft, die es grundsätzlich schweben lässt."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Eis besitzt eine geringere Dichte als flüssiges Wasser. Deshalb kann es oben schwimmen – eine Besonderheit, die mit der Dichteanomalie des Wassers zusammenhängt.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Wasser und Eis"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Dichteanomalie“, Revision 269518242; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Dichteanomalie&oldid=269518242",
+        "source_revision": "269518242",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Wasser und Eis",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Warum schwimmt ein Eiswürfel auf flüssigem Wasser?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Eis besitzt eine geringere Dichte als flüssiges Wasser. Deshalb kann es oben schwimmen – eine Besonderheit, die mit der Dichteanomalie des Wassers zusammenhängt."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Dichteanomalie“, Revision 269518242. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:wasser-02",
+      "language": "de",
+      "prompt": "Bei welcher Temperatur ist flüssiges Wasser bei Normaldruck ungefähr am dichtesten?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Bei 4 °C",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Bei 4 °C"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Bei 0 °C",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Bei 0 °C"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Bei 20 °C",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Bei 20 °C"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Flüssiges Wasser erreicht bei Normaldruck seine größte Dichte bei ungefähr 4 °C. Kühlt es darunter weiter ab, nimmt seine Dichte wieder ab – das ist ungewöhnlich.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Wasser und Eis"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Dichteanomalie“, Revision 269518242; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Dichteanomalie&oldid=269518242",
+        "source_revision": "269518242",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Wasser und Eis",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Bei welcher Temperatur ist flüssiges Wasser bei Normaldruck ungefähr am dichtesten?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Flüssiges Wasser erreicht bei Normaldruck seine größte Dichte bei ungefähr 4 °C. Kühlt es darunter weiter ab, nimmt seine Dichte wieder ab – das ist ungewöhnlich."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Dichteanomalie“, Revision 269518242. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:wasser-03",
+      "language": "de",
+      "prompt": "Was passiert mit Wasser zwischen ungefähr 4 °C und 0 °C, wenn es weiter abkühlt?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Es dehnt sich wieder aus und seine Dichte sinkt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Es dehnt sich wieder aus und seine Dichte sinkt."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Es wird immer dichter bis zum Gefrierpunkt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Es wird immer dichter bis zum Gefrierpunkt."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Sein Volumen bleibt exakt gleich.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Sein Volumen bleibt exakt gleich."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Unterhalb von etwa 4 °C verhält sich Wasser ungewöhnlich: Beim weiteren Abkühlen dehnt es sich wieder aus und wird weniger dicht. Diese Dichteanomalie setzt sich beim Gefrieren fort.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Wasser und Eis"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Dichteanomalie“, Revision 269518242; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Dichteanomalie&oldid=269518242",
+        "source_revision": "269518242",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Wasser und Eis",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Was passiert mit Wasser zwischen ungefähr 4 °C und 0 °C, wenn es weiter abkühlt?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Unterhalb von etwa 4 °C verhält sich Wasser ungewöhnlich: Beim weiteren Abkühlen dehnt es sich wieder aus und wird weniger dicht. Diese Dichteanomalie setzt sich beim Gefrieren fort."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Dichteanomalie“, Revision 269518242. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:wasser-04",
+      "language": "de",
+      "prompt": "Warum kann unter einer Eisdecke in einem See flüssiges Wasser bleiben?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Weil Wasser unter etwa 4 °C nicht weiter nach unten sinkt und sich Schichten bilden können.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil Wasser unter etwa 4 °C nicht weiter nach unten sinkt und sich Schichten bilden können."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Weil Eis das Wasser darunter dauerhaft auf 20 °C erwärmt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil Eis das Wasser darunter dauerhaft auf 20 °C erwärmt."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Weil gefrorenes Wasser immer nach unten sinkt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil gefrorenes Wasser immer nach unten sinkt."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Unterhalb von ungefähr 4 °C wird Oberflächenwasser wieder weniger dicht und sinkt nicht weiter ab. Dadurch können sich Temperaturschichten bilden, während Eis oben schwimmt und Wasser darunter flüssig bleibt.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Wasser und Eis"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Dichteanomalie“, Revision 269518242; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Dichteanomalie&oldid=269518242",
+        "source_revision": "269518242",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Wasser und Eis",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Warum kann unter einer Eisdecke in einem See flüssiges Wasser bleiben?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Unterhalb von ungefähr 4 °C wird Oberflächenwasser wieder weniger dicht und sinkt nicht weiter ab. Dadurch können sich Temperaturschichten bilden, während Eis oben schwimmt und Wasser darunter flüssig bleibt."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Dichteanomalie“, Revision 269518242. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:gewitter-01",
+      "language": "de",
+      "prompt": "Welche beiden Erscheinungen gehören unmittelbar zu einem Gewitter?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Blitz und Donner",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Blitz und Donner"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Nebel und Tau",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nebel und Tau"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Regenbogen und Polarlicht",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Regenbogen und Polarlicht"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Ein Gewitter ist durch luftelektrische Entladungen mit Blitz und Donner gekennzeichnet. Häufig kommen kräftiger Regen, Hagel oder böiger Wind dazu, aber Blitz und Donner sind das typische Paar.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Wetter"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Gewitter“, Revision 266233428; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Gewitter&oldid=266233428",
+        "source_revision": "266233428",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Wetter",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Welche beiden Erscheinungen gehören unmittelbar zu einem Gewitter?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Ein Gewitter ist durch luftelektrische Entladungen mit Blitz und Donner gekennzeichnet. Häufig kommen kräftiger Regen, Hagel oder böiger Wind dazu, aber Blitz und Donner sind das typische Paar."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Gewitter“, Revision 266233428. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:gewitter-02",
+      "language": "de",
+      "prompt": "Welche Luft hilft beim Aufbau einer großen Gewitterwolke?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Aufsteigende feuchtwarme Luft",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Aufsteigende feuchtwarme Luft"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Nur kalte, trockene Luft am Boden",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nur kalte, trockene Luft am Boden"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Ausschließlich Luft aus dem Meer",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Ausschließlich Luft aus dem Meer"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Feuchtwarme Luft kann aufsteigen und sich zu einer großen Gewitterwolke entwickeln. In der Höhe kühlt sie ab, Wasserdampf kondensiert und setzt dabei Wärme frei.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Wetter"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Gewitter“, Revision 266233428; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Gewitter&oldid=266233428",
+        "source_revision": "266233428",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Wetter",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Welche Luft hilft beim Aufbau einer großen Gewitterwolke?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Feuchtwarme Luft kann aufsteigen und sich zu einer großen Gewitterwolke entwickeln. In der Höhe kühlt sie ab, Wasserdampf kondensiert und setzt dabei Wärme frei."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Gewitter“, Revision 266233428. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:gewitter-03",
+      "language": "de",
+      "prompt": "Welche Kombination nennt Wikipedia als wichtige Voraussetzungen für die Gewitterentstehung?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Labile Luftschichtung, Feuchtigkeit und ein Auslöser für die Hebung",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Labile Luftschichtung, Feuchtigkeit und ein Auslöser für die Hebung"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Nur starke Sonneneinstrahlung",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nur starke Sonneneinstrahlung"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Nur niedriger Luftdruck und Windstille",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nur niedriger Luftdruck und Windstille"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Für die Entstehung werden drei Faktoren genannt: eine labile Schichtung der Troposphäre, genügend Feuchtigkeit in Bodennähe und ein Auslösemechanismus, der Luftpakete anhebt und Kondensation startet.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Wetter"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Gewitter“, Revision 266233428; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Gewitter&oldid=266233428",
+        "source_revision": "266233428",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Wetter",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Welche Kombination nennt Wikipedia als wichtige Voraussetzungen für die Gewitterentstehung?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Für die Entstehung werden drei Faktoren genannt: eine labile Schichtung der Troposphäre, genügend Feuchtigkeit in Bodennähe und ein Auslösemechanismus, der Luftpakete anhebt und Kondensation startet."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Gewitter“, Revision 266233428. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:gewitter-04",
+      "language": "de",
+      "prompt": "Warum ist Kondensation in einer entstehenden Gewitterwolke wichtig?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Dabei wird Wärme frei, die den Aufbau der aufsteigenden Luftströmung unterstützt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Dabei wird Wärme frei, die den Aufbau der aufsteigenden Luftströmung unterstützt."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Dabei wird die gesamte Wolke sofort zu Eis.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Dabei wird die gesamte Wolke sofort zu Eis."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Dabei verschwindet die Luftfeuchtigkeit vollständig.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Dabei verschwindet die Luftfeuchtigkeit vollständig."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Wenn Wasserdampf in der aufsteigenden Luft kondensiert, wird Wärme frei. Diese Wärmefreisetzung ist eine wichtige Voraussetzung dafür, dass sich die kräftige aufsteigende Gewitterwolke weiter entwickeln kann.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Wetter"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Gewitter“, Revision 266233428; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Gewitter&oldid=266233428",
+        "source_revision": "266233428",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Wetter",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Warum ist Kondensation in einer entstehenden Gewitterwolke wichtig?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Wenn Wasserdampf in der aufsteigenden Luft kondensiert, wird Wärme frei. Diese Wärmefreisetzung ist eine wichtige Voraussetzung dafür, dass sich die kräftige aufsteigende Gewitterwolke weiter entwickeln kann."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Gewitter“, Revision 266233428. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:led-01",
+      "language": "de",
+      "prompt": "Wann leuchtet eine LED grundsätzlich?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Wenn elektrischer Strom in Durchlassrichtung fließt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Wenn elektrischer Strom in Durchlassrichtung fließt."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Nur wenn sie vorher warm gemacht wurde.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nur wenn sie vorher warm gemacht wurde."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Wenn Strom in beliebiger Richtung fließt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Wenn Strom in beliebiger Richtung fließt."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Eine LED ist eine Diode: Sie strahlt Licht aus, wenn Strom in Durchlassrichtung fließt. In Gegenrichtung sperrt sie den Strom – daher ist die richtige Polung wichtig.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Alltagstechnik"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Leuchtdiode“, Revision 270338369; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Leuchtdiode&oldid=270338369",
+        "source_revision": "270338369",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Alltagstechnik",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Wann leuchtet eine LED grundsätzlich?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Eine LED ist eine Diode: Sie strahlt Licht aus, wenn Strom in Durchlassrichtung fließt. In Gegenrichtung sperrt sie den Strom – daher ist die richtige Polung wichtig."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Leuchtdiode“, Revision 270338369. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:led-02",
+      "language": "de",
+      "prompt": "Wovon hängt die Farbe des Lichts einer LED wesentlich ab?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Vom verwendeten Halbleitermaterial und seiner Dotierung",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Vom verwendeten Halbleitermaterial und seiner Dotierung"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Nur von der Form des Kunststoffgehäuses",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nur von der Form des Kunststoffgehäuses"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Nur von der Länge der Anschlussdrähte",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Nur von der Länge der Anschlussdrähte"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Die Wellenlänge und damit die Farbe des ausgesendeten Lichts hängt vom Halbleitermaterial und von dessen Dotierung ab. Das Gehäuse allein bestimmt die eigentliche Lichtfarbe nicht.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Alltagstechnik"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Leuchtdiode“, Revision 270338369; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Leuchtdiode&oldid=270338369",
+        "source_revision": "270338369",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Alltagstechnik",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Wovon hängt die Farbe des Lichts einer LED wesentlich ab?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Die Wellenlänge und damit die Farbe des ausgesendeten Lichts hängt vom Halbleitermaterial und von dessen Dotierung ab. Das Gehäuse allein bestimmt die eigentliche Lichtfarbe nicht."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Leuchtdiode“, Revision 270338369. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:led-03",
+      "language": "de",
+      "prompt": "Wie wird weißes Licht bei vielen weißen LEDs erzeugt?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Blaues LED-Licht wird mit einem Leuchtstoff kombiniert.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Blaues LED-Licht wird mit einem Leuchtstoff kombiniert."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Eine rote LED wird extrem stark erhitzt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Eine rote LED wird extrem stark erhitzt."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Mehrere schwarze Filter werden übereinandergelegt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Mehrere schwarze Filter werden übereinandergelegt."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Für weiße Beleuchtungs-LEDs wird häufig blaues LED-Licht mit einem Leuchtstoff kombiniert. Der Leuchtstoff ergänzt weitere Wellenlängen, sodass unser Auge die Mischung als weiß wahrnimmt.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Alltagstechnik"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Leuchtdiode“, Revision 270338369; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Leuchtdiode&oldid=270338369",
+        "source_revision": "270338369",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Alltagstechnik",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Wie wird weißes Licht bei vielen weißen LEDs erzeugt?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Für weiße Beleuchtungs-LEDs wird häufig blaues LED-Licht mit einem Leuchtstoff kombiniert. Der Leuchtstoff ergänzt weitere Wellenlängen, sodass unser Auge die Mischung als weiß wahrnimmt."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Leuchtdiode“, Revision 270338369. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:led-04",
+      "language": "de",
+      "prompt": "Was kann die Lebensdauer einer LED stark verkürzen?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Hohe Temperatur, oft durch zu hohen Strom",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Hohe Temperatur, oft durch zu hohen Strom"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Eine niedrige Umgebungstemperatur grundsätzlich",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Eine niedrige Umgebungstemperatur grundsätzlich"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Dass die LED sichtbares Licht erzeugt",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Dass die LED sichtbares Licht erzeugt"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Hohe Temperaturen beschleunigen Alterungsprozesse im Halbleiter und können die Lebensdauer stark verkürzen. Deshalb ist bei leistungsstarken LEDs eine gute Wärmeableitung wichtig.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Alltagstechnik"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Leuchtdiode“, Revision 270338369; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Leuchtdiode&oldid=270338369",
+        "source_revision": "270338369",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Alltagstechnik",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Was kann die Lebensdauer einer LED stark verkürzen?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Hohe Temperaturen beschleunigen Alterungsprozesse im Halbleiter und können die Lebensdauer stark verkürzen. Deshalb ist bei leistungsstarken LEDs eine gute Wärmeableitung wichtig."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Leuchtdiode“, Revision 270338369. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:hebel-01",
+      "language": "de",
+      "prompt": "Du willst mit einem langen Hebel etwas Schweres bewegen. Wo setzt du deine Kraft am günstigsten an?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Möglichst weit vom Drehpunkt entfernt",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Möglichst weit vom Drehpunkt entfernt"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Direkt am Drehpunkt",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Direkt am Drehpunkt"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Die Entfernung spielt keine Rolle",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Die Entfernung spielt keine Rolle"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Je größer der Hebelarm ist, desto größer kann bei gleicher Kraft das Drehmoment sein. Darum hilft ein langer Hebel: Weiter vom Drehpunkt entfernt brauchst du weniger Kraft für dieselbe Wirkung.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Hebel"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Hebel (Physik)“, Revision 269762103; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Hebel_%28Physik%29&oldid=269762103",
+        "source_revision": "269762103",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Hebel",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Du willst mit einem langen Hebel etwas Schweres bewegen. Wo setzt du deine Kraft am günstigsten an?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Je größer der Hebelarm ist, desto größer kann bei gleicher Kraft das Drehmoment sein. Darum hilft ein langer Hebel: Weiter vom Drehpunkt entfernt brauchst du weniger Kraft für dieselbe Wirkung."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Hebel (Physik)“, Revision 269762103. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:hebel-02",
+      "language": "de",
+      "prompt": "Wie heißt der Punkt, um den sich ein Hebel dreht?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Drehpunkt",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Drehpunkt"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Schallpunkt",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Schallpunkt"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Lichtpunkt",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Lichtpunkt"
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Ein Hebel ist ein starrer Körper, der um einen Drehpunkt drehbar ist. Zusammen mit Kraftarm und Lastarm bestimmt dieser Punkt, wie der Hebel wirkt.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Hebel"
+      ],
+      "difficulty": "easy",
+      "age_band": "10-12",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Hebel (Physik)“, Revision 269762103; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Hebel_%28Physik%29&oldid=269762103",
+        "source_revision": "269762103",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Hebel",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Wie heißt der Punkt, um den sich ein Hebel dreht?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Ein Hebel ist ein starrer Körper, der um einen Drehpunkt drehbar ist. Zusammen mit Kraftarm und Lastarm bestimmt dieser Punkt, wie der Hebel wirkt."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Hebel (Physik)“, Revision 269762103. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:hebel-03",
+      "language": "de",
+      "prompt": "Wann befindet sich ein einfacher Hebel im Gleichgewicht?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Wenn sich die Drehmomente um den Bezugspunkt ausgleichen.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Wenn sich die Drehmomente um den Bezugspunkt ausgleichen."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Wenn beide Seiten gleich lang sind, unabhängig von den Kräften.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Wenn beide Seiten gleich lang sind, unabhängig von den Kräften."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Wenn auf einer Seite gar keine Kraft wirkt.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Wenn auf einer Seite gar keine Kraft wirkt."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Ein Hebel ist im Gleichgewicht, wenn sich die anliegenden Drehmomente ausgleichen. Vereinfacht gilt bei senkrechten Kräften: Kraft mal Hebelarm muss auf beiden Seiten passend übereinstimmen.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Hebel"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Hebel (Physik)“, Revision 269762103; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Hebel_%28Physik%29&oldid=269762103",
+        "source_revision": "269762103",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Hebel",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Wann befindet sich ein einfacher Hebel im Gleichgewicht?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Ein Hebel ist im Gleichgewicht, wenn sich die anliegenden Drehmomente ausgleichen. Vereinfacht gilt bei senkrechten Kräften: Kraft mal Hebelarm muss auf beiden Seiten passend übereinstimmen."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Hebel (Physik)“, Revision 269762103. Redaktionsstatus: Entwurf."
+    },
+    {
+      "id": "wikipedia:aha:hebel-04",
+      "language": "de",
+      "prompt": "Warum braucht ein echter Hebel oft etwas mehr Kraft als ein ideal berechneter?",
+      "answers": [
+        {
+          "id": "A",
+          "text": "Reibung am Drehpunkt kann einen Teil der Arbeit in Wärme umwandeln.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Reibung am Drehpunkt kann einen Teil der Arbeit in Wärme umwandeln."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "Weil reale Hebel keine Masse besitzen.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil reale Hebel keine Masse besitzen."
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "Weil Drehpunkte in Wirklichkeit nie vorhanden sind.",
+          "blocks": [
+            {
+              "kind": "text",
+              "text": "Weil Drehpunkte in Wirklichkeit nie vorhanden sind."
+            }
+          ]
+        }
+      ],
+      "correct_answer_ids": [
+        "A"
+      ],
+      "explanation": "Bei realen Hebeln wirkt unter anderem Reibung im Drehpunkt. Dadurch geht ein Teil der eingebrachten Arbeit als Wärme verloren und die benötigte Kraft kann größer sein als im idealen Modell.",
+      "topics": [
+        "Alltagswissen mit Aha-Effekt",
+        "Hebel"
+      ],
+      "difficulty": "medium",
+      "age_band": "13-15",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "holder": "Wikipedia-Autorinnen und -Autoren sowie LearnPip-Katalogredaktion für die Bearbeitung",
+        "attribution": "Wikipedia-Beitragende, Artikel „Hebel (Physik)“, Revision 269762103; Bearbeitung als Lernfrage"
+      },
+      "provenance": {
+        "kind": "adapted",
+        "source_url": "https://de.wikipedia.org/w/index.php?title=Hebel_%28Physik%29&oldid=269762103",
+        "source_revision": "269762103",
+        "modification_note": "Als kurze Lernfrage mit Antwortalternativen und Aha-Erklärung bearbeitet."
+      },
+      "media": [],
+      "subject": "Alltagswissen",
+      "topic": "Hebel",
+      "question_version": "1",
+      "selection_mode": "single",
+      "prompt_blocks": [
+        {
+          "kind": "text",
+          "text": "Warum braucht ein echter Hebel oft etwas mehr Kraft als ein ideal berechneter?"
+        }
+      ],
+      "explanation_blocks": [
+        {
+          "kind": "text",
+          "text": "Bei realen Hebeln wirkt unter anderem Reibung im Drehpunkt. Dadurch geht ein Teil der eingebrachten Arbeit als Wärme verloren und die benötigte Kraft kann größer sein als im idealen Modell."
+        }
+      ],
+      "source_note": "Quelle: deutschsprachige Wikipedia, Artikel „Hebel (Physik)“, Revision 269762103. Redaktionsstatus: Entwurf."
+    }
+  ]
+}
