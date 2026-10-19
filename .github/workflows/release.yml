@@ -47,6 +47,7 @@ jobs:
           set -euo pipefail
           python3 scripts/validate-release.py "$PACKAGE" > validation-report.txt
           python3 scripts/validate-wikipedia-content.py "$PACKAGE" >> validation-report.txt
+          python3 scripts/validate-learning-design.py "$PACKAGE" >> validation-report.txt
           python3 .contract/learnpip/scripts/validate-catalog.py "$PACKAGE" >> validation-report.txt
 
       - name: Create SHA-256 file
