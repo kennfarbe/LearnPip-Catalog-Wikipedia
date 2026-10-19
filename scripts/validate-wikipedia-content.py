@@ -19,9 +19,9 @@ def fail(message: str) -> None:
     raise SystemExit("Wikipedia-Lizenzprüfung abgelehnt: " + message)
 
 
-def permanent_revision(url: str, revision: str) -> bool:
+def permanent_revision(url: str, revision: str, host: str) -> bool:
     parsed = urlparse(url)
-    if parsed.scheme != "https" or parsed.hostname != WIKIPEDIA_HOST:
+    if parsed.scheme != "https" or parsed.hostname != host:
         return False
     if not revision.isdigit():
         return False
@@ -58,7 +58,7 @@ def require_question_provenance(question: dict, index: int) -> str:
         fail(f"Frage {index}: Wikipedia-Frage muss adapted oder verbatim sein")
     source_url = str(provenance.get("source_url", "")).strip()
     revision = str(provenance.get("source_revision", "")).strip()
-    if not permanent_revision(source_url, revision):
+    if not permanent_revision(source_url, revision, WIKIPEDIA_HOST):
         fail(f"Frage {index}: Quelle ist keine gepinnte Revision der deutschsprachigen Wikipedia")
     if kind == "adapted" and not str(provenance.get("modification_note", "")).strip():
         fail(f"Frage {index}: Änderungsvermerk für bearbeiteten Wikipedia-Text fehlt")
@@ -90,10 +90,11 @@ def require_media_license(media: dict, question_id: str, media_index: int) -> st
         fail(label + ": konkrete Quelle und Quellenrevision fehlen")
 
     parsed = urlparse(source_url)
-    if parsed.scheme != "https":
+    if parsed.hostname == COMMONS_HOST:
+        if not permanent_revision(source_url, revision, COMMONS_HOST):
+            fail(label + ": Commons-Quelle ist keine gepinnte Dateirevision")
+    elif parsed.scheme != "https":
         fail(label + ": Medienquelle muss HTTPS verwenden")
-    if parsed.hostname == COMMONS_HOST and "/wiki/" not in parsed.path:
-        fail(label + ": Commons-Quelle muss auf eine Dateibeschreibungsseite verweisen")
     if kind == "adapted" and not str(provenance.get("modification_note", "")).strip():
         fail(label + ": Änderungsvermerk für bearbeitetes Medium fehlt")
     return source_url
